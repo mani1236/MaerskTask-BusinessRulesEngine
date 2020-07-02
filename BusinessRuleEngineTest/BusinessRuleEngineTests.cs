@@ -35,10 +35,6 @@ namespace BusinessRuleEngineTest
             var ret = processEngine.RunBusinessRuleEngine(PaymentType.BOOK);
             Assert.IsTrue(ret.Status == (int)Status.SUCCESS);
         }
-
-
-
-
         [TestMethod]
         public void Test_Physical_Product_Success()
         {

@@ -38,7 +38,7 @@ namespace MaerskTask_BusinessRulesEngine.Implementation
                 Console.WriteLine(e.Message);
             }
 
-            return new Response((int)Status.FAIL, "Fail to process physical product packing slip");
+            return new Response((int)Status.FAIL, "Faild to process physical product packing slip");
         }
         #endregion
     }

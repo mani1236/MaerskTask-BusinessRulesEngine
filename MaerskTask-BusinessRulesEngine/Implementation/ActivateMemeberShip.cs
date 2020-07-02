@@ -24,7 +24,7 @@ namespace MaerskTask_BusinessRulesEngine.Implementation
         {
             try
             {
-                // Perform somelogic here for activating the membership
+                // Write somelogic here for activating the membership
                 // and process next step
                 // break the chain if process failed
                 if (nextStep != null)
